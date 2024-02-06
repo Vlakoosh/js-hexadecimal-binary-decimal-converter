@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Decimal Translator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="window">
+            <h1>Decimal Converter</h1>
+            <textarea class="input-field" id="inputField"></textarea>
+            <div class="select-buttons">
+                <input type="radio" name="base" id="hexadecimal">
+                <label for="hexadecimal">Hexadecimal</label>
+                <input type="radio" name="base" id="binary">
+                <label for="binary">Binary</label>
+                <input type="radio" name="base" id="octal">
+                <label for="octal">Octal</label>
+            </div>
+            <textarea class="output-field" id="outputField"></textarea>
+            <button id="convertButton" onclick="convert()">Convert</button>
+        </div>
+    </div>
+</body>
+</html>
